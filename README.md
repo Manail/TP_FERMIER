@@ -7,9 +7,9 @@ Tp d'IoT
 3. Installez https://grafana.com/grafana/download?platform=windows
 4. Installez NodeJS https://nodejs.org/en
 5. Créez un dossier pour le middleware
-6. Depuis ce dossier, ouvrez un cmd et lancer $ npm init pour créer un package.json
+6. Depuis ce dossier, ouvrez un cmd et lancez npm init pour créer un package.json
 7. Appuyez sur entrée jusqu'a la fin pour prendre les valeurs par défaut
-8. Installez Express dans le dossier que vous avez créé $ npm install express --save
+8. Installez Express dans le dossier que vous avez créé npm install express --save
 9. Copier le fichier app.js dans ce même dossier
 10. Ajoutez "type" : "module", dans le package.json en dessous de main
 11. Installez TypeScript via la commande npm i -g typescript && npm i --save-dev @types/node
