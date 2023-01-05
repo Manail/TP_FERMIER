@@ -18,11 +18,11 @@ Tp d'IoT
 14. Installez les dépendances pour accedez au API d'InfluxDB npm install --save @influxdata/influxdb-client-apis
 15. Installer le dépendances dotenv npm install dotenv --save
 16. Copier le fichier .env dans le dossier créer à l'étape 4
-17. Allez sur le http://localhost:8086 d'influxDB et connectez vous
-17. Copiez http://localhost:8086 et coller le en face de INFLUX_URL dans le fichier .env
+17. Allez sur le http://localhost:8086/ d'influxDB et connectez vous
+17. Copiez http://localhost:8086/ et coller le en face de INFLUX_URL dans le fichier .env
 18. Copiez l'ID de votre organisation dans la barre d'adresse derrière le /orgs/ et collez le en face de INFLUX_ORG dans le fichier .env
 19. Créez un nouveau bucket et copier son ID dans le .env en face de INFLUX_BUCKET
 20. Créez un nouveau APIToken et copier son ID dans le .env en face de INFLUX_TOKEN
-
 21. Lancez votre middleware avec la commande node app.js
 22. Modifiez le fichier humitidy.js et tempetature.js du dossier sensors en changeant le ENDPOINT par, respectivement, 'http://localhost:8000/api/humidity' et 'http://localhost:8000/api/temperature'
+23. Lancez les sensors avec une nouvelle invit de commande dans le dossier sensors npm run sensors
