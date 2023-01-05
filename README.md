@@ -25,3 +25,4 @@ Tp d'IoT
 21. Créez un nouveau APIToken et copier son ID dans le .env en face de INFLUX_TOKEN
 22. Lancez votre middleware avec la commande node app.js
 23. Lancez les sensors avec une nouvelle invit de commande dans le dossier sensors\tp-iot-main npm i puis npm run sensors
+24. Retourner sur InfluxDB et ouvrez la page data explorer
