@@ -24,5 +24,5 @@ Tp d'IoT
 19. Créez un nouveau bucket et copier son ID dans le .env en face de INFLUX_BUCKET
 20. Créez un nouveau APIToken et copier son ID dans le .env en face de INFLUX_TOKEN
 21. Lancez votre middleware avec la commande node app.js
-22. Modifiez le fichier humitidy.js et tempetature.js du dossier sensors en changeant le ENDPOINT par, respectivement, 'http://localhost:8000/api/humidity' et 'http://localhost:8000/api/temperature'
+22. Modifiez le fichier humitidy.js et tempetature.js du dossier sensors en changeant la constante ENDPOINT par, respectivement, 'http://localhost:8000/api/humidity' et 'http://localhost:8000/api/temperature'
 23. Lancez les sensors avec une nouvelle invit de commande dans le dossier sensors npm run sensors
