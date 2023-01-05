@@ -24,4 +24,4 @@ Tp d'IoT
 20. Créez un nouveau bucket et copier son ID dans le .env en face de INFLUX_BUCKET
 21. Créez un nouveau APIToken et copier son ID dans le .env en face de INFLUX_TOKEN
 22. Lancez votre middleware avec la commande node app.js
-23. Lancez les sensors avec une nouvelle invit de commande dans le dossier sensors npm run sensors
+23. Lancez les sensors avec une nouvelle invit de commande dans le dossier sensors\tp-iot-main npm i puis npm run sensors
