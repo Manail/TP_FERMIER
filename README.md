@@ -63,3 +63,4 @@ Tp d'IoT
 59. Cliquez sur Apply
 60. Vous pouvez editez votre graphique en cliquant le nom du nom du graphique puis sur edit
 61. Vous pouvez changer la durée du digramme en haut a droite (Last 6hours par defaut), nous recommendons last 5 min.
+62. Vous pouvez également paramétrer des alerte en editant votre diagramme dans la rubrique alerte sous le diagramme
