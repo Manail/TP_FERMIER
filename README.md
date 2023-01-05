@@ -16,3 +16,7 @@ Tp d'IoT
 12. Installez les dépendances pour écrire dans influxDB npm install --save @influxdata/influxdb-client
 13. Installez les dépendances pour accedez au API d'InfluxDB npm install --save @influxdata/influxdb-client-apis
 14. Copier le fichier .env dans le dossier créer à l'étape 4
+15. Allez sur le localhost d'influxDB et connectez vous
+16. Copiez l'ID de votre organisation dans la barre d'adresse derrière le /orgs/
+17. Créez un nouveau bucket et copier son ID dans le .env en face de INFLUX_BUCKET
+18. 
