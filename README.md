@@ -39,7 +39,7 @@ Tp d'IoT
 
 18. Copiez http://localhost:8086/ et coller le en face de INFLUX_URL dans le fichier .env
 
-19. Copiez l'ID de votre organisation dans la barre d'adresse derrière le "/orgs/" et collez le en face de INFLUX_ORG dans le fichier .env
+19. Copiez l'ID de votre organisation dans la barre d'adresse derrière le ``/orgs/`` et collez le en face de INFLUX_ORG dans le fichier .env
 
 20. Créez un nouveau bucket et copier son ID dans le .env en face de INFLUX_BUCKET
 
