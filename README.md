@@ -12,25 +12,25 @@ Tp d'IoT
 
 5. Créez un dossier pour le middleware
 
-6. Depuis ce dossier, ouvrez un cmd et lancez "npm init" pour créer un package.json
+6. Depuis ce dossier, ouvrez un cmd et lancez ``npm init`` pour créer un package.json
 
 7. Appuyez sur entrée jusqu'a la fin pour prendre les valeurs par défaut
 
-8. Installez Express dans le dossier que vous avez créé "npm install express --save"
+8. Installez Express dans le dossier que vous avez créé ``npm install express --save``
 
 9. Créez un fichier app.js dans ce même dossier et copier le contenu du fichier app.js du github
 
-10. Ajoutez <"type" : "module",> dans le package.json en dessous de main
+10. Ajoutez ``type" : "module"`` dans le package.json en dessous de main
 
-11. Installez TypeScript via la commande "npm i -g typescript && npm i --save-dev @types/node"
+11. Installez TypeScript via la commande ``npm i -g typescript && npm i --save-dev @types/node``
 
-12. Configurez TypeScript par defaut via la commande "tsc --init"
+12. Configurez TypeScript par defaut via la commande ``tsc --init``
 
-13. Installez les dépendances pour écrire dans influxDB "npm install --save @influxdata/influxdb-client"
+13. Installez les dépendances pour écrire dans influxDB ``npm install --save @influxdata/influxdb-client``
 
-14. Installez les dépendances pour accedez au API d'InfluxDB "npm install --save @influxdata/influxdb-client-apis"
+14. Installez les dépendances pour accedez au API d'InfluxDB ``npm install --save @influxdata/influxdb-client-apis``
 
-15. Installer le dépendances dotenv "npm install dotenv --save"
+15. Installer le dépendances dotenv ``npm install dotenv --save``
 
 16. Copier le fichier .env dans le dossier créer à l'étape 4
 
@@ -44,9 +44,9 @@ Tp d'IoT
 
 21. Créez un nouveau APIToken -> Costum et copier son ID dans le .env en face de INFLUX_TOKEN
 
-22. Lancez votre middleware avec la commande "node app.js"
+22. Lancez votre middleware avec la commande ``node app.js``
 
-23. Lancez les sensors avec une nouvelle invit de commande dans le dossier sensors\tp-iot-main "npm i puis npm run sensors"
+23. Lancez les sensors avec une nouvelle invit de commande dans le dossier sensors\tp-iot-main ``npm i puis npm run sensors``
 
 24. Retourner sur InfluxDB et ouvrez la page data explorer
 
@@ -56,7 +56,7 @@ Tp d'IoT
 
 27. Identifiez vous avez le username <admin> et password <admin>
 
-28. Cliquez sur "Add your first data source"
+28. Cliquez sur ``Add your first data source``
 
 29. Selectionnez InfluxDB
 
