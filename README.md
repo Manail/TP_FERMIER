@@ -12,7 +12,7 @@ Tp d'IoT
 
 5. Créez un dossier pour le middleware
 
-6. Depuis ce dossier, ouvrez un cmd et lancez ``npm init`` pour créer un package.json
+6. Depuis ce dossier, ouvrez un cmd et lancez ```npm init``` pour créer un package.json
 
 7. Appuyez sur entrée jusqu'a la fin pour prendre les valeurs par défaut
 
