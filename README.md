@@ -83,11 +83,11 @@ Tp d'IoT
 
 40. Remplacez  _db/rp_ par le nom de votre bucket
 
-41. Remplacez _v.timeRangeStart , stop:v.timeRangeStop_ par _-1d_ ce qui vous permettra d'avoir un retour sur un jour de votre serre
+41. Remplacez _v.timeRangeStart , stop:v.timeRangeStop_ par *-1d* ce qui vous permettra d'avoir un retour sur un jour de votre serre
 
-42. Remplacer _exemple-measurement_ par _humidity_
+42. Remplacer _exemple-measurement_ par *humidity*
 
-43. Remplacer _exemple-filed_ par _humidity_
+43. Remplacer _exemple-filed_ par *humidity*
 
 44. CTRL + S
 
@@ -105,9 +105,9 @@ Tp d'IoT
 
 51. Cliquez sur _add panel_ puis _add a new panel_ et recommencez l'étape 38 à 41
 
-52. Remplacer _exemple-measurement_ par _temperature_
+52. Remplacer _exemple-measurement_ par *temperature*
 
-53. Remplacer _exemple-filed_ par _Temperature_
+53. Remplacer _exemple-filed_ par *temperature*
 
 54. CTRL + S
 
