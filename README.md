@@ -67,62 +67,62 @@ Tp d'IoT
 
 32. URL = http://localhost:8086/
 
-33. Désactiver le "basic auth"
+33. Désactiver le ``basic auth``
 
 34. Retournez dans le fichier .env et copier les différentes information necessaire pour le setting 
 
-35. Cliquez sur "save & test"
+35. Cliquez sur ``save & test``
 
-36. Cliquez sur "New Dashboard"
+36. Cliquez sur ``New Dashboard``
 
-37. Cliquez sur "Add a new panel"
+37. Cliquez sur ``Add a new panel``
 
 38. Choississez la data source sur la source que vous venez de créer
 
-39. En bas de la page cliquer sur "Sample Query" et choisir "simple query"
+39. En bas de la page cliquer sur ``Sample Query`` et choisir ``simple query``
 
-40. Remplacez  "db/rp" par le nom de votre bucket
+40. Remplacez  ``db/rp`` par le nom de votre bucket
 
-41. Remplacez "v.timeRangeStart , stop:v.timeRangeStop" par " -1d" ce qui vous permettra d'avoir un retour sur un jour de votre serre
+41. Remplacez ``v.timeRangeStart , stop:v.timeRangeStop`` par `` -1d`` ce qui vous permettra d'avoir un retour sur un jour de votre serre
 
-42. Remplacer "exemple-measurement" par "humidity"
+42. Remplacer ``exemple-measurement`` par ``humidity``
 
-43. Remplacer "exemple-filed" par "humidity"
+43. Remplacer ``exemple-filed`` par ``humidity``
 
 44. CTRL + S
 
-45. Changez le titre du diagramme par "Humidité" à droite de la page
+45. Changez le titre du diagramme par ``Humidité`` à droite de la page
 
 46. Désactiver la legende
 
-47. Choississez la "line intrepretation" de votre choix
+47. Choississez la ``line intrepretation`` de votre choix
 
-48. Modifier le "show treshholds" en "As filled regions and lines tresholds"
+48. Modifier le ``show treshholds`` en ``As filled regions and lines tresholds``
 
-49. Modifiez "Unit" et choississez "Misc" puis "Humidity(%H)"
+49. Modifiez ``Unit`` et choississez ``Misc`` puis ``Humidity(%H)``
 
-50. Cliquez sur "Save" et sauvegarder sous le nom "Constante de la serre et sauvegarder"
+50. Cliquez sur ``Save`` et sauvegarder sous le nom ``Constante de la serre et sauvegarder``
 
-51. Cliquez sur "add panel" puis "add a new panel" et recommencez l'étape 38 à 41
+51. Cliquez sur ``add panel`` puis ``add a new panel`` et recommencez l'étape 38 à 41
 
-52. Remplacer "exemple-measurement" par "temperature"
+52. Remplacer ``exemple-measurement`` par ``temperature``
 
-53. Remplacer "exemple-filed" par "Temperature"
+53. Remplacer ``exemple-filed`` par ``Temperature``
 
 54. CTRL + S
 
-55. Changez le titre du diagramme par "Température" à droite de la page
+55. Changez le titre du diagramme par ``Température`` à droite de la page
 
-56. Modifiez "Unit" en "temperature(°C)"
+56. Modifiez ``Unit`` en ``temperature(°C)``
 
-57. Modifier la valeur du treshold par "25"
+57. Modifier la valeur du treshold par ``25``
 
 58. Sauvegardez
 
-59. Cliquez sur "Apply"
+59. Cliquez sur ``Apply``
 
-60. Vous pouvez editez votre graphique en cliquant le nom du nom du graphique puis sur "edit"
+60. Vous pouvez editez votre graphique en cliquant le nom du nom du graphique puis sur ``edit``
 
-61. Vous pouvez changer la durée du digramme en haut a droite (Last 6hours par defaut), nous recommendons "last 5 min".
+61. Vous pouvez changer la durée du digramme en haut a droite (Last 6hours par defaut), nous recommendons ``last 5 min``.
 
-62. Vous pouvez également paramétrer des alerte en editant votre diagramme dans la rubrique "alerte" sous le diagramme
+62. Vous pouvez également paramétrer des alerte en editant votre diagramme dans la rubrique ``alerte`` sous le diagramme
